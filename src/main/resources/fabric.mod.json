@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mayhem",
+  "version": "${version}",
+  "name": "Mayhem",
+  "description": "Mayhem Mod for Minecraft",
+  "authors": [
+    "domsim1"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mayhem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.domsim1.mc.mayhem.client.MayhemClient"
+    ],
+    "main": [
+      "io.github.domsim1.mc.mayhem.Mayhem"
+    ]
+  },
+  "mixins": [
+    "mayhem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

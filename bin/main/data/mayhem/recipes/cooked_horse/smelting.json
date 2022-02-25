@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mayhem:raw_horse"
+  },
+  "result": "mayhem:cooked_horse",
+  "experience": 0.25,
+  "cookingtime": 200,
+  "group": "mayhem"
+}

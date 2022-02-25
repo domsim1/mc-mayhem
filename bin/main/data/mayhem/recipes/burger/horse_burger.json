@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "mayhem:cooked_horse"
+    }
+  ],
+  "result": {
+    "item": "mayhem:horse_burger",
+    "count": 1
+  },
+  "group": "mayhem"
+}
